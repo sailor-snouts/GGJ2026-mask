@@ -11,6 +11,12 @@
 
 namespace AK
 {
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MASKSOUNDBANK = 3890669060U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
