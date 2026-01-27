@@ -1,5 +1,5 @@
 {
-    "originalSdkFolder": "C:\\Users\\Ace\\Documents\\WwiseProjects\\Wwise2025.1.4.9062\\SDK",
+    "originalSdkFolder": "C:\\Program Files (x86)\\Audiokinetic\\Wwise2025.1.4.9062\\SDK",
     "currentVersion": {
         "nickname": "",
         "build": 4025,
@@ -22,11 +22,11 @@
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Windows"
+            "valueId": "Emscripten"
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Emscripten"
+            "valueId": "Windows"
         }
     ]
 }
