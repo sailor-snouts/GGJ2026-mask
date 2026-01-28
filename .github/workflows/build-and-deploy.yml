@@ -63,13 +63,10 @@ jobs:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
 
-      - name: Install butler
-        run: |
-          curl -L -o butler.zip https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default
-          unzip butler.zip
-          chmod +x butler
+      - name: Setup butler
+        uses: remarkablegames/setup-butler@v2
 
       - name: Push to itch.io
-        run: ./butler push build/${{ matrix.targetPlatform }} ${{ secrets.ITCH_USER }}/${{ secrets.ITCH_GAME }}:${{ matrix.channel }}
+        run: butler push build/${{ matrix.targetPlatform }} ${{ secrets.ITCH_USER }}/${{ secrets.ITCH_GAME }}:${{ matrix.channel }}
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
