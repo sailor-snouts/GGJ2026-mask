@@ -52,6 +52,7 @@ jobs:
       matrix:
         targetPlatform:
           - StandaloneWindows64
+          - WebGL
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -93,6 +94,8 @@ jobs:
         include:
           - targetPlatform: StandaloneWindows64
             channel: windows
+          - targetPlatform: WebGL
+            channel: html5
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
