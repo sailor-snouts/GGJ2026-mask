@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347389508348fdc4fafc222c7f840e15, type: 3}
+  m_Name: BF2B25AF-1C94-4CAF-8270-DFC990764389
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseBankReference
+  objectName: MaskSoundbank
+  id: 3890669060
+  guid: BF2B25AF-1C94-4CAF-8270-DFC990764389
+  bank: {fileID: 11400000, guid: 8b417901a30f42e488876c2101e1f9c0, type: 2}
