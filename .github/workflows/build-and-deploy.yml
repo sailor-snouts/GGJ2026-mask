@@ -19,6 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           lfs: true
 
       - name: Cache Unity Library
@@ -43,10 +44,6 @@ jobs:
         with:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
-
-      - name: Return Unity license
-        uses: game-ci/unity-return-license@v2
-        if: always()
 
   # publish
   publish:
