@@ -63,11 +63,13 @@ jobs:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
 
-      - name: Publish to itch.io
-        uses: manleydev/butler-publish-itchio-action@v1.0.3
+      - name: Install butler
+        run: |
+          curl -L -o butler.zip https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default
+          unzip butler.zip
+          chmod +x butler
+
+      - name: Push to itch.io
+        run: ./butler push build/${{ matrix.targetPlatform }} ${{ secrets.ITCH_USER }}/${{ secrets.ITCH_GAME }}:${{ matrix.channel }}
         env:
-          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-          CHANNEL: ${{ matrix.channel }}
-          ITCH_GAME: ${{ secrets.ITCH_GAME }}
-          ITCH_USER: ${{ secrets.ITCH_USER }}
-          PACKAGE: build/${{ matrix.targetPlatform }}
+          BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
