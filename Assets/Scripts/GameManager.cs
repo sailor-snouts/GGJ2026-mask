@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public enum GameState { Menu, Playing, Paused, GameOver }
 
@@ -85,9 +84,4 @@ public class GameManager : MonoBehaviour
         OnGameResumed?.Invoke();
     }
 
-    public void RestartGame()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 }

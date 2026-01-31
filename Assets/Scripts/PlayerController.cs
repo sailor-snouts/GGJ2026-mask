@@ -45,12 +45,6 @@ public class PlayerController : MonoBehaviour
     {
         if (!context.performed) return;
 
-        if (GameManager.Instance.State == GameState.GameOver)
-        {
-            GameManager.Instance.RestartGame();
-            return;
-        }
-
         if (GameManager.Instance.State == GameState.Menu)
         {
             GameManager.Instance.StartGame();
