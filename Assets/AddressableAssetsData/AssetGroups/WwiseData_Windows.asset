@@ -15,8 +15,33 @@ MonoBehaviour:
   m_GroupName: WwiseData_Windows
   m_GUID: a8a473ed76dd8be4e90cf3bb3715df63
   m_SerializeEntries:
-  - m_GUID: d2248436d2de93141a12dd29583d5bb2
-    m_Address: Assets/WwiseData/Bank/Windows/MaskSoundbank.bnk
+  - m_GUID: 1c6f91dc72a4d1240a4e47870d1ed8a6
+    m_Address: Assets/WwiseData/Bank/Windows/Media/623400105.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 323e21783508dc141b9a3669dcbd0d51
+    m_Address: Assets/WwiseData/Bank/Windows/Media/1038294616.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6efcbb45f2f4cfe4ea3c0567d3c9a5f1
+    m_Address: Assets/WwiseData/Bank/Windows/Media/11049266.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7dde5451911272428174e5bce471e88
+    m_Address: Assets/WwiseData/Bank/Windows/Main.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecb0a2a4712254945af2a6e8f868dc76
+    m_Address: Assets/WwiseData/Bank/Windows/Media/977332928.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f136f959b2e07c14bb9128f36e8754b0
+    m_Address: Assets/WwiseData/Bank/Windows/Event/StartMusic.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
