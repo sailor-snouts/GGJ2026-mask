@@ -15,10 +15,6 @@ public class GameManager : MonoBehaviour
 
     public GameState State { get; private set; } = GameState.Menu;
 
-    [Header("Player")]
-    [SerializeField] private GameObject playerPrefab;
-    [SerializeField] private Vector3 spawnPosition = new Vector3(-5f, 0f, 0f);
-
     [Header("Game Settings")]
     public float GameSpeed = 5f;
 
@@ -37,13 +33,6 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
         initialSpeed = GameSpeed;
-        SpawnPlayer();
-    }
-
-    private void SpawnPlayer()
-    {
-        if (playerPrefab == null) return;
-        Instantiate(playerPrefab, spawnPosition, Quaternion.identity);
     }
 
     private void Update()
