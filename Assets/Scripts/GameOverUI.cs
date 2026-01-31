@@ -58,4 +58,9 @@ public class GameOverUI : MonoBehaviour
     {
         SceneController.Instance.ReloadCurrentScene();
     }
+
+    public void GoToMenu()
+    {
+        SceneController.Instance.LoadScene("MainMenuScene");
+    }
 }
