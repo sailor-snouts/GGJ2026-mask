@@ -3,12 +3,20 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{5C747A5E-5748-430B-BDE0-E751825EF75F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="MaskSoundbank" ID="{BF2B25AF-1C94-4CAF-8270-DFC990764389}">
+				<SoundBank Name="Main" ID="{56AB74F9-E3A3-42A6-B355-A0D54E7F9394}">
 					<ObjectInclusionList>
-						<ObjectRef Name="StartMusic" ID="{8469FFF1-D730-42CE-9AAD-284A939ACF74}" WorkUnitID="{612B922A-7BF2-4864-B688-DB3A3EF69121}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartMusic" ID="{8469FFF1-D730-42CE-9AAD-284A939ACF74}" WorkUnitID="{612B922A-7BF2-4864-B688-DB3A3EF69121}" Origin="Manual" Filter="4"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="Tempo3" ID="{F4480C89-AE7D-42B9-867E-52DED08560D4}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="None" ID="{F89F15DF-E66D-4353-9339-0AE981657E09}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="None" ID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="Tempo1" ID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="Tempo2" ID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="Dead" ID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+						<GameSyncRef Name="Alive" ID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" Origin="Manual"/>
+					</GameSyncExclusionList>
 				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>

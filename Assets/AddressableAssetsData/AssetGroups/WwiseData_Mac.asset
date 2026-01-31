@@ -15,8 +15,33 @@ MonoBehaviour:
   m_GroupName: WwiseData_Mac
   m_GUID: d1109832aa9214543b58720727cdb8f6
   m_SerializeEntries:
-  - m_GUID: 97def8f2dd1ad1a44b68e0f2c51d8e82
-    m_Address: Assets/WwiseData/Bank/Mac/MaskSoundbank.bnk
+  - m_GUID: 10e21d634588a6346a1b65ea7003d560
+    m_Address: Assets/WwiseData/Bank/Mac/Event/StartMusic.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 496820daa339dd2479bec0b0c9dbc20b
+    m_Address: Assets/WwiseData/Bank/Mac/Media/977332928.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b6839f6551205242acb5463784564a1
+    m_Address: Assets/WwiseData/Bank/Mac/Media/623400105.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb5f94869672a64dbfc39367f483f91
+    m_Address: Assets/WwiseData/Bank/Mac/Main.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d35a0d2b57704f94c817280eaf3d0f5e
+    m_Address: Assets/WwiseData/Bank/Mac/Media/1038294616.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e602ea264b2e893438a7721ac2223bc1
+    m_Address: Assets/WwiseData/Bank/Mac/Media/11049266.wem
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

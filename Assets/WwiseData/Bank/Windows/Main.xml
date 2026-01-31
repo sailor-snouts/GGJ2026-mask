@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{56AB74F9-E3A3-42A6-B355-A0D54E7F9394}" Language="SFX" Hash="{71F9CEB8-45DE-23D7-AC26-882EA609EB7A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{EB827B0A-A0AD-45E8-AF7F-8680B282B73E}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{F89F15DF-E66D-4353-9339-0AE981657E09}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1763041431" Name="MusicSpeed" ObjectPath="\States\Default Work Unit\MusicSpeed" GUID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicSpeed\None" GUID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}"/>
+						<State Id="2339970656" Name="Tempo2" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo2" GUID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+						<State Id="2339970657" Name="Tempo3" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo3" GUID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+						<State Id="2339970659" Name="Tempo1" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo1" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E42C8BD0-20A6-1F58-3065-BF0484F17F6D}</FileHash>
+</SoundBanksInfo>
