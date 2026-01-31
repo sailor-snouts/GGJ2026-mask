@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3827058668	StartMusic			\Default Work Unit\StartMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1763041431	MusicSpeed			\Default Work Unit\MusicSpeed	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	748895195	None	MusicSpeed			
+	2339970656	Tempo2	MusicSpeed			
+	2339970657	Tempo3	MusicSpeed			
+	2339970659	Tempo1	MusicSpeed			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11049266	GGJ26_160BPM	.cache\4D\{4D2AAB72-C6D3-EC7E-A4A6-EE72F7B50CFB}.wem		\Containers\Default Work Unit\Music\Music_160\Music_160\GGJ26_160BPM		18432096
+	623400105	DeathSFX	.cache\C0\{C0C791AD-B583-BD6A-90BB-778019DCB387}.wem		\Containers\Default Work Unit\Music\Death\Death\DeathSFX		288096
+	977332928	GGJ26_120BPM	.cache\4D\{4D94F692-176B-2F04-1D29-A478552B22B4}.wem		\Containers\Default Work Unit\Music\Music_120\Music_120\GGJ26_120BPM		18432096
+	1038294616	GGJ26_80BPM	.cache\82\{8226B229-5086-AF06-A190-F59C15AD28FD}.wem		\Containers\Default Work Unit\Music\Music_80\Music_80\GGJ26_80BPM		18432096
+

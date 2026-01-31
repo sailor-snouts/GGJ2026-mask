@@ -1,3 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1763041431	MusicSpeed			\Default Work Unit\MusicSpeed	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	748895195	None	MusicSpeed			
+	2339970656	Tempo2	MusicSpeed			
+	2339970657	Tempo3	MusicSpeed			
+	2339970659	Tempo1	MusicSpeed			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
 

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" SchemaVersion="133">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B8E08488-C914-4908-BBEC-912FD38E6B69}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{EB827B0A-A0AD-45E8-AF7F-8680B282B73E}">
+					<ChildrenList>
+						<State Name="None" ID="{F89F15DF-E66D-4353-9339-0AE981657E09}"/>
+						<State Name="Alive" ID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+						<State Name="Dead" ID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MusicSpeed" ID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}">
+					<ChildrenList>
+						<State Name="None" ID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}"/>
+						<State Name="Tempo1" ID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+						<State Name="Tempo2" ID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+						<State Name="Tempo3" ID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{612B922A-7BF2-4864-B688-DB3A3EF69121}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{612B922A-7BF2-4864-B688-DB3A3EF69121}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{612B922A-7BF2-4864-B688-DB3A3EF69121}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="StartMusic" ID="{8469FFF1-D730-42CE-9AAD-284A939ACF74}">
+					<ChildrenList>
+						<Action Name="" ID="{9E2AAE6F-256F-42A8-AC10-0B45E01435CA}" ShortID="908459808">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{081F0F0F-1823-4118-9226-FE06B360DC5E}" WorkUnitID="{FEC328DE-7EC6-4AD1-B42A-4C8C00127474}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02217075-3801-46E6-A6C3-54A26F5180D6}" ShortID="318273575">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tempo1" ID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}" WorkUnitID="{B8E08488-C914-4908-BBEC-912FD38E6B69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7DC88A1B-715B-4B32-9022-EC0523874E1E}" ShortID="82785216">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{081F0F0F-1823-4118-9226-FE06B360DC5E}" WorkUnitID="{FEC328DE-7EC6-4AD1-B42A-4C8C00127474}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
