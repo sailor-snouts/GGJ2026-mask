@@ -17,25 +17,29 @@ public class SceneController : MonoBehaviour
         }
         Instance = this;
         Transition = GetComponent<SceneTransition>();
-        DontDestroyOnLoad(gameObject);
     }
 
     public void ReloadCurrentScene()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void LoadScene(string sceneName)
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName);
+        Transition.FadeOut(() =>
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(sceneName);
+        });
     }
 
     public void LoadScene(int buildIndex)
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(buildIndex);
+        Transition.FadeOut(() =>
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(buildIndex);
+        });
     }
 
     public string GetCurrentSceneName()
