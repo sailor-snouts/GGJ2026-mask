@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(SceneTransition))]
 public class SceneController : MonoBehaviour
 {
     public static SceneController Instance { get; private set; }
+
+    public SceneTransition Transition { get; private set; }
 
     private void Awake()
     {
@@ -13,6 +16,7 @@ public class SceneController : MonoBehaviour
             return;
         }
         Instance = this;
+        Transition = GetComponent<SceneTransition>();
         DontDestroyOnLoad(gameObject);
     }
 
