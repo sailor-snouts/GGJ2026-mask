@@ -56,8 +56,6 @@ public class GameOverUI : MonoBehaviour
 
     public void RestartGame()
     {
-        Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        SceneController.Instance.ReloadCurrentScene();
     }
 }
