@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<RootPaths>
+		<ProjectRoot>../../../../GGJ2026-mask_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../GGJ2026-mask_WwiseProject/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../GGJ2026-mask_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{EDE20045-978F-0978-91A8-8B673D724AE2}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{847D43B9-5592-4016-B104-C61D3DF449D2}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{A4EAAF19-3EBC-4104-B2BD-9DAD00649C43}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2115070251" Name="TrackSpeed" ObjectPath="\Game Parameters\Default Work Unit\TrackSpeed" GUID="{5D9E1122-83CF-4FE5-B1E8-9861AD18301F}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{EB827B0A-A0AD-45E8-AF7F-8680B282B73E}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{F89F15DF-E66D-4353-9339-0AE981657E09}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1763041431" Name="MusicSpeed" ObjectPath="\States\Default Work Unit\MusicSpeed" GUID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicSpeed\None" GUID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}"/>
+						<State Id="2339970656" Name="Tempo2" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo2" GUID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+						<State Id="2339970657" Name="Tempo3" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo3" GUID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+						<State Id="2339970659" Name="Tempo1" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo1" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{56AB74F9-E3A3-42A6-B355-A0D54E7F9394}" Language="SFX" Hash="{71F9CEB8-45DE-23D7-AC26-882EA609EB7A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{EB827B0A-A0AD-45E8-AF7F-8680B282B73E}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{F89F15DF-E66D-4353-9339-0AE981657E09}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1763041431" Name="MusicSpeed" ObjectPath="\States\Default Work Unit\MusicSpeed" GUID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicSpeed\None" GUID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}"/>
+						<State Id="2339970656" Name="Tempo2" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo2" GUID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+						<State Id="2339970657" Name="Tempo3" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo3" GUID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+						<State Id="2339970659" Name="Tempo1" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo1" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3827058668" Type="Event" GUID="{8469FFF1-D730-42CE-9AAD-284A939ACF74}" Language="SFX" Hash="{932BB18A-4C1B-4D14-A49F-EF6FF84E020D}">
+			<ObjectPath>StartMusic</ObjectPath>
+			<ShortName>StartMusic</ShortName>
+			<Path>Event/StartMusic.bnk</Path>
+			<Media>
+				<File Id="11049266" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>GGJ26_160BPM.wav</ShortName>
+					<Path>Media/11049266.wem</Path>
+					<CachePath>4D/{4D2AAB72-C6D3-EC7E-A4A6-EE72F7B50CFB}.wem</CachePath>
+				</File>
+				<File Id="623400105" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>DeathSFX.wav</ShortName>
+					<Path>Media/623400105.wem</Path>
+					<CachePath>C0/{C0C791AD-B583-BD6A-90BB-778019DCB387}.wem</CachePath>
+				</File>
+				<File Id="977332928" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>GGJ26_120BPM.wav</ShortName>
+					<Path>Media/977332928.wem</Path>
+					<CachePath>4D/{4D94F692-176B-2F04-1D29-A478552B22B4}.wem</CachePath>
+				</File>
+				<File Id="1038294616" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>GGJ26_80BPM.wav</ShortName>
+					<Path>Media/1038294616.wem</Path>
+					<CachePath>82/{8226B229-5086-AF06-A190-F59C15AD28FD}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic" GUID="{8469FFF1-D730-42CE-9AAD-284A939ACF74}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="2044049779" GUID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1763041431" Id="0" GUID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}"/>
+									<MediaRefs>
+										<MediaRef Id="623400105"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1763041431" Id="2339970659" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+									<MediaRefs>
+										<MediaRef Id="1038294616"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1763041431" Id="2339970656" GUID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+									<MediaRefs>
+										<MediaRef Id="977332928"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1763041431" Id="2339970657" GUID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+									<MediaRefs>
+										<MediaRef Id="11049266"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1763041431" Id="2339970659" Name="Tempo1" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo1" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{EB827B0A-A0AD-45E8-AF7F-8680B282B73E}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{0CCEE091-FFC3-4CD9-ACA0-63346A71E3A2}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{F89F15DF-E66D-4353-9339-0AE981657E09}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead" GUID="{29936EF6-B73C-4C5B-BF4B-B4A4A78666BA}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1763041431" Name="MusicSpeed" ObjectPath="\States\Default Work Unit\MusicSpeed" GUID="{D4F30F23-CBB5-49A6-9ED2-E6FDA3A5CAC2}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicSpeed\None" GUID="{1CF53CF1-E48A-43BC-AB47-CCF0F6A70B88}"/>
+						<State Id="2339970656" Name="Tempo2" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo2" GUID="{38D5E908-8A20-4BD5-B315-3578207CAF9F}"/>
+						<State Id="2339970657" Name="Tempo3" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo3" GUID="{F4480C89-AE7D-42B9-867E-52DED08560D4}"/>
+						<State Id="2339970659" Name="Tempo1" ObjectPath="\States\Default Work Unit\MusicSpeed\Tempo1" GUID="{97B68580-BBE4-487E-9C7E-C933EAFFD9D4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{89F79691-B159-7773-CE15-CAD24549ED6D}</FileHash>
+</SoundBanksInfo>
