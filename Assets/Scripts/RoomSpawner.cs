@@ -18,6 +18,7 @@ public class RoomSpawner : MonoBehaviour
     private List<GameObject> activeRooms = new List<GameObject>();
     private float nextRoomSpawnX = 0f;
     private bool isSpawning;
+    private int roomsSpawned = 0;
 
     private void Awake()
     {
@@ -75,10 +76,17 @@ public class RoomSpawner : MonoBehaviour
     {
         if (roomPrefabs == null || roomPrefabs.Count == 0) return;
 
-        var prefab = roomPrefabs[Random.Range(0, roomPrefabs.Count)];
+        // First 2 rooms always use the first prefab, then random
+        GameObject prefab;
+        if (roomsSpawned < 2)
+            prefab = roomPrefabs[0];
+        else
+            prefab = roomPrefabs[Random.Range(0, roomPrefabs.Count)];
+
         var room = Instantiate(prefab, new Vector3(nextRoomSpawnX, -3.5f, 0f), Quaternion.identity);
         activeRooms.Add(room);
         nextRoomSpawnX += roomWidth;
+        roomsSpawned++;
     }
 
     private void CleanupOldRooms()
