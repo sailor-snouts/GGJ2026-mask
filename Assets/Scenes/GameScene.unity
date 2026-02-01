@@ -155,6 +155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RoomSpawner
   roomPrefabs:
   - {fileID: 1362448408425043422, guid: 14baf7dc4564a70409d539b10a98da20, type: 3}
+  - {fileID: 1362448408425043422, guid: e9a8fff8c619d034cb11001adb405773, type: 3}
+  - {fileID: 1362448408425043422, guid: 5ce471d5eeff7d140aa2715ce3d67694, type: 3}
   roomWidth: 20
   player: {fileID: 67272685}
   cleanupDistance: 50
@@ -1206,14 +1208,14 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2068182395}
+  - {fileID: 1751958130}
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 2068182395}
   - {fileID: 5416564536258823528}
   - {fileID: 3625337852622394683}
   - {fileID: 1616986404}
   - {fileID: 852215643}
-  - {fileID: 1751958130}
   - {fileID: 9070117540694931229}
   - {fileID: 7979906794215559897}
   - {fileID: 299924087}
