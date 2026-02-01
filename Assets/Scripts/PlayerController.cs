@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 8f;
+    [SerializeField] private float runSpeed = 8f;
 
     [Header("Jump Settings")]
     [SerializeField] private float jumpForce = 12f;
@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
-    private float moveInput;
 
     private void Awake()
     {
@@ -32,13 +31,19 @@ public class PlayerController : MonoBehaviour
 
         if (GameManager.Instance.State == GameState.Playing)
         {
-            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+            // Auto-run: player moves right automatically
+            rb.linearVelocity = new Vector2(runSpeed, rb.linearVelocity.y);
+        }
+        else
+        {
+            // Stop horizontal movement when not playing
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         }
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<float>();
+        // Left/right input disabled for auto-run mode
     }
 
     public void OnJump(InputAction.CallbackContext context)

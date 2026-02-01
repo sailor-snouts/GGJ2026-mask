@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 2967275996732921311}
   - component: {fileID: 1051596150510740968}
   - component: {fileID: 810762608465447258}
-  - component: {fileID: -1989304287810205934}
-  - component: {fileID: 3882359822827146769}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -62,38 +60,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a896cb70dced644d99b9c988d61f657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
---- !u!114 &-1989304287810205934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822498101584637872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d0718bfd845b5d41971b437fa2d023a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  obstaclePrefab: {fileID: 4314694108363225520, guid: 6ec6b61ffd75f3b4f9d058d93b5dcfa7, type: 3}
-  minSpawnInterval: 1.5
-  maxSpawnInterval: 3
-  spawnX: 12
-  spawnY: -2
---- !u!114 &3882359822827146769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822498101584637872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5357fbbebaaa2344a53519b3cf2c9ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DiscSpawner
-  discPrefab: {fileID: 7381989208979464092, guid: 235e690bef7973b4f953cc5c99d4e70f, type: 3}
-  minSpawnInterval: 2
-  maxSpawnInterval: 4
-  spawnX: 12
-  minY: -1
-  maxY: 2

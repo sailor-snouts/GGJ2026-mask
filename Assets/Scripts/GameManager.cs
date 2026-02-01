@@ -14,15 +14,6 @@ public class GameManager : MonoBehaviour
 
     public GameState State { get; private set; } = GameState.Menu;
 
-    [Header("Game Settings")]
-    public float GameSpeed = 5f;
-
-    [Header("Difficulty")]
-    [SerializeField] private float speedIncreaseRate = 0.1f;
-    [SerializeField] private float maxSpeed = 15f;
-
-    private float initialSpeed;
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -31,14 +22,6 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
-        initialSpeed = GameSpeed;
-    }
-
-    private void Update()
-    {
-        if (State != GameState.Playing) return;
-
-        GameSpeed = Mathf.Min(GameSpeed + speedIncreaseRate * Time.deltaTime, maxSpeed);
     }
 
     public void StartGame()
@@ -46,7 +29,6 @@ public class GameManager : MonoBehaviour
         if (State != GameState.Menu) return;
 
         State = GameState.Playing;
-        GameSpeed = initialSpeed;
         OnGameStart?.Invoke();
     }
 
