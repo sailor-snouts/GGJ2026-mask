@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using AudioManager;
 
 public enum GameState { Menu, Playing, Paused, GameOver }
 
